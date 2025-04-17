@@ -39,7 +39,7 @@ This project explores the Connecticut State Patrol dataset to uncover patterns a
 Visuals were generated using **base R** and **ggplot2** to examine key patterns:
 
 1. **Scatter Plot: Age vs. Outcome**  
-   → Revealed high concentration of stops among individuals aged 25–50.  
+   → Revealed a high concentration of stops among individuals aged 25–50.  
    → Citation and warning outcomes dominate over arrests and summons.
 
 2. **Jitter Plot: Search Conducted by Race**  
@@ -110,6 +110,13 @@ Visuals were generated using **base R** and **ggplot2** to examine key patterns:
    ➤ _"County-Level Racial Distribution of Traffic Stops in Connecticut (2013–2015)"_  
    - Visualizes the concentration of stops by geography  
    - Darker counties = higher traffic stop volumes for selected demographic groups
+  
+🔗 **Traffic enforcement insights through race, gender, and geography**  
+📁 [View Tableau Visualizations](./visuals/tableau_visualizations.twb)
+
+> All visualizations are based on raw data. Visuals were built in Tableau Public and can be filtered by county, year, gender, and race for dynamic exploration of trends.
+
+---
 
 ---
 
@@ -134,7 +141,7 @@ traffic-stops-analysis/
 │   ├── jitter_search_by_race.png
 │   ├── correlation_heatmap.png
 │   ├── regression_summary.png
-│   └── tableau_visuals.twb
+│   └── tableau_visualizations.twb
 │       # Tableau file with 5 interactive visualizations
 │
 ├── report/
